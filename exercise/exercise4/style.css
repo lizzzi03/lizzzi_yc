@@ -4,5 +4,5 @@ img{
 
 .felx-container{
     display: flex
-    
+    flex-direction:cloumn
 }
