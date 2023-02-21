@@ -3,13 +3,13 @@ h1{
     font-weight: bolder;
     color: #ffffff;
     text-transform: uppercase;
-    background-color: #f68e26;
+    background-color: #74489d;
 }
 
 h3{
 font-size: 18px;
 font-weight: bold;
-color: #f68e26;
+color: #74489d;
 }
 
 p{
@@ -19,9 +19,15 @@ p{
 
 strong {
     font-weight: bolder;
-    color: #f68e26;
+    color: #74489d;
     font-size: 16px;
 }
+
+em{
+        font-weight: bolder;
+        color: #74489d;
+        font-size: 16px;
+    }
 
 body {
     margin-top: 18px;
@@ -32,21 +38,7 @@ body {
 }
 
 .container {
-    background: #faf486;
+    background: #ddd1f0;
     padding: 20px 40px;
     line-height: 28px;
-}
-
-.pullquote {
-    font-family: 'Roboto', sans-serif;
-    color: black;
-    font-size: 24px;
-    font-style: italic;
-    line-height: 32px;
-}
-
-.term {
-    font-size: 24px;
-    font-style: italic;
-    color: #f68e26;
 }
