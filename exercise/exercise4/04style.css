@@ -37,9 +37,15 @@ body {
     padding: 12px;
 }
 
-.container {
-    background: #f5e9fd;
-    padding: 20px 40px;
-    line-height: 28px;
+.left {
+    height: 100%;
+    Width: 40%;
+    float: left;
 }
 
+.right {
+    height: 100%;
+    width: 40%;
+    float: right;
+    background: #f5e9fd;
+}
