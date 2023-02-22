@@ -37,15 +37,20 @@ body {
     padding: 12px;
 }
 
+.container {
+    background: #eeddf9;
+    padding: 20px 40px;
+    line-height: 28px;
+}
+
 .left {
     height: 100%;
-    Width: 40%;
+    Width: 50%;
     float: left;
 }
 
 .right {
     height: 100%;
-    width: 40%;
+    width: 50%;
     float: right;
-    background: #f5e9fd;
 }
