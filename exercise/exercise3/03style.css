@@ -29,7 +29,8 @@ em{
     font-size: 16px;
 }
 
-body {
+body {    
+    background: #eeddf9;
     margin-top: 18px;
     margin-left: 24px;
     margin-right: 24px;

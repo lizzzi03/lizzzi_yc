@@ -1,0 +1,47 @@
+*{
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body, html{
+    font-family:'Roboto',sans-serif;
+}
+
+nav{
+    height:60px;
+}
+
+ul.container{
+    display:flex;
+    flex-wrap:nowrap;
+    justify-content:space-around;
+    list-style: none;
+    background:#77489d;
+    margin:0;
+    line-height:60px;
+}
+
+.container a{
+    text-decoration:none;
+    color:#f4f4f4
+}
+
+.flex-container{
+flex-direction:column;
+}
+
+image{
+    width:30%;
+}
+
+h1{
+    font-size: 24px;
+    font-weight: bolder;
+    color: #000000;
+}
+
+p{
+    font-size: 16px;
+    color: rgb(60, 60, 60);
+}
