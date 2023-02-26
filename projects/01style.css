@@ -29,19 +29,51 @@ ul.container{
 
 .flex-container{
 flex-direction:column;
+position: center;
+justify-content:space-around;
 }
 
-image{
-    width:30%;
+.project1{
+    width:600px;
+    text-align: center;
+}
+
+.project2{
+    width:600px;
+    text-align: center;
+}
+
+.project3{
+    width:600px;
+    text-align: center;
+}
+
+.project4{
+    width:600px;
+    text-align: center;
+}
+
+.project5{
+    width:600px;
+    text-align: center;
+}
+
+.project6{
+    width:600px;
+    text-align: center;
+}
+
+img{
+    width:600px;
 }
 
 h1{
-    font-size: 24px;
-    font-weight: bolder;
+    font-size: 14px;
+    font-weight: bold;
     color: #000000;
 }
 
 p{
-    font-size: 16px;
+    font-size: 12px;
     color: rgb(60, 60, 60);
 }
