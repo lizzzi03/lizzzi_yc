@@ -1,69 +1,130 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-html, body{
-    height: 100%;
-}
-
-body{
-    background: papayawhip;
+body {
+    font-family: "Roboto", sans-serif;
+    background:  #eeddf9;
     min-height: 100vh;
-}
+  }
+  
+  main, header, footer {
+    padding: 5px;
+    color: #000000;
+  }
+  
+  h1{
+font-size: 24px;
+font-weight:bolder;
+color: #ffff;
+text-transform: uppercase;
+background-color:#77489d
+  }
 
-main, header, footer{
-    padding: 20px;
-    color:#141414
-}
-
-.flex-container{
+  .flex-container{
     display: flex;
     flex-direction: column;
     height: 100%;
-    overflow: auto;
-}
-
-img{
-    width: 25%;
-}
-
-header, footer{
-    line-height: 60px;
-}
-
-main{
+  }
+  
+  header, footer {
+    line-height: 20px;
+  }
+  
+  main {
     flex: 1;
     overflow: auto;
     display: flex;
-}
-
-column{
-    padding:120px;
-    height:100%;
-    width:50%
-}
-
-// MOBILE
-@media (max-width: 450px) {
-    .flex-container{
-        background: orange
-    }
-
-main{
-    display: flex;
     flex-direction: column;
-}
+  }
+  
+  
+  .column-wrapper {
+    display: flex;
+  }
 
-.coumn{
-    width:100%;
-}
-}
-
-@media (max-width:600px) {
-    .flex-container{
-        background:green;
+    .left-column, .right-column {
+      width: 50%;
+      flex-direction: row;
+      display:flex;
     }
+  
+  .column {
+    padding: 20px;
+    height: 100%;
+    width: 50%;
+  }
+
+  
+  p {
+    line-height: 1.68em;
+    padding-bottom: 1em;
+  }
+  
+  .image img{
+    width:100%;
+    height:480px;
+    object-fit:cover;
+    object-position:0% 50%;
 }
+
+  .pullquote {
+    color: #77489d;
+    font-family: "Libre Baskerville", serif;
+    font-style: italic;
+    font-size: 1.2em;
+    line-height: 1.2em;
+    padding: 15px 0;
+  }
+
+  @media (max-width: 960px) {
+    .flex-container {
+      background: rgb(249, 45, 103);
+    }
+  
+    main {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .column-wrapper {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .left-column, .right-column {
+      width: 100%;
+      flex-direction: row;
+      display:flex;
+    }
+  }
+  
+  
+  @media (max-width: 450px) {
+    .flex-container {
+      background: rgb(255, 180, 41);
+    }
+  
+    main {
+      display: flex;
+      
+    }
+  
+    .column-wrapper {
+      flex-direction: column;
+    }
+  
+      .left-column, .right-column {
+      width: 100%;
+      flex-direction: column;
+      display:flex;
+    }
+  
+    .column {
+      width: 100%;
+    }
+  
+    .image img {
+      height: 380px;
+      object-position: 50% 50%;
+    }
+  }
+  
+
 

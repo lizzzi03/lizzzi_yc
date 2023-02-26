@@ -1,56 +1,70 @@
-h1{
-    font-size: 24px;
-    font-weight: bolder;
-    color: #ffffff;
-    text-transform: uppercase;
-    background-color: #77489d;
-}
 
-h3{
-font-size: 18px;
-font-weight: bold;
-color: #77489d;
-}
+  body {
+    font-family: "Roboto", sans-serif;
+    background:  #eeddf9;
+    min-height: 100vh;
+  }
+  
+  main, header, footer {
+    padding: 5px;
+    color: #000000;
+  }
+  
+  h1{
+font-size: 24px;
+font-weight:bolder;
+color: #ffff;
+text-transform: uppercase;
+background-color:#77489d
+  }
 
-p{
-    font-size: 16px;
-    color: rgb(0, 0, 0);
-}
-
-strong {
-    font-weight: bolder;
-    color: #77489d;
-    font-size: 16px;
-}
-
-em{
-    font-weight: bolder;
-    color: #77489d;
-    font-size: 16px;
-}
-
-body {
-    margin-top: 18px;
-    margin-left: 24px;
-    margin-right: 24px;
-    border: 2px solid black;
-    padding: 12px;
-}
-
-.container {
-    background: #eeddf9;
-    padding: 20px 40px;
-    line-height: 28px;
-}
-
-.left {
+  .flex-container{
+    display: flex;
+    flex-direction: column;
     height: 100%;
-    Width: 50%;
-    float: left;
-}
+  }
+  
+  header, footer {
+    line-height: 20px;
+  }
+  
+  main {
+    flex: 1;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  
+  .column-wrapper {
+    display: flex;
+  }
 
-.right {
+    .left-column, .right-column {
+      width: 50%;
+      flex-direction: row;
+      display:flex;
+    }
+  
+  .column {
+    padding: 20px;
     height: 100%;
     width: 50%;
-    float: right;
-}
+  }
+  
+  
+  p {
+    line-height: 1.68em;
+    padding-bottom: 1em;
+  }
+  
+  .pullquote {
+    color: #77489d;
+    font-family: "Libre Baskerville", serif;
+    font-style: italic;
+    font-size: 1.2em;
+    line-height: 1.2em;
+    padding: 15px 0;
+  }
+  
+  
