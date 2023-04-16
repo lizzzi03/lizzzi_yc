@@ -17,14 +17,15 @@ ul.container{
     flex-wrap:nowrap;
     justify-content:space-around;
     list-style: none;
-    background:#77489d;
+    background:#ffffff;
     margin:0;
     line-height:60px;
 }
 
 .container a{
+    font-size: 30px;
     text-decoration:none;
-    color:#f4f4f4
+    color:#000000
 }
 
 .flex-container{
@@ -64,7 +65,7 @@ justify-content:space-around;
 }
 
 img{
-    position: center;
+    position: middle;
     width:600px;
 }
 
