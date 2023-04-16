@@ -29,10 +29,10 @@ ul.container{
 }
 
 .flex-container{
-flex-direction:column;
-position: center;
-align-items: center;
-justify-content:center;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
 }
 
 .project1{
@@ -66,8 +66,10 @@ justify-content:center;
 }
 
 img{
-    align-self: center;
-    image-orientation: middle;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
     width:600px;
 }
 
