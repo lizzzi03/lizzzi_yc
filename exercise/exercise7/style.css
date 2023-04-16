@@ -44,9 +44,15 @@
 
 h1 {
     color: #000000;
-}
+    line-height: 1.25;
+    margin: 2em 0 0;
+  }
 
-.felx-container{
+  p {
+    margin: 0.5em 0;
+  }
+
+.theme{
     display:flex;
     flex-direction:column;
     align-items:center;

@@ -1,0 +1,124 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto',sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+  }
+  
+  .container {
+    display: flex;
+    height: 50px;
+    flex-wrap: nowrap;
+    text-align: center;
+}
+
+@keyframes changeColor{
+    0% {
+        background-color:rgb(255, 255, 115);
+    }
+    60% {
+        background-color:rgb(188, 255, 133);
+    }
+    80% {
+        background-color:rgb(124, 192, 255);
+    }
+    100% {
+        background-color: rgb(255, 109, 197);
+    }
+}
+
+.guidetext {
+    padding-top: 0.7%;
+    width: 25%;
+    font-size: 2vh;
+    color: #ffffff;
+    background-color: #77489d;
+    
+}
+.guidetext:hover {
+    animation: changeColor 2s;
+}
+
+
+
+
+.theme {
+    margin: 50px;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  
+  h1 {
+    color: #000000;
+    line-height: 1.25;
+    margin: 2em 0 0;
+  }
+
+  p {
+    margin: 0.5em 0;
+  }
+  
+  #switcher {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  #switcher li {
+    float: left;
+    width: 30px;
+    height: 30px;
+    margin: 0 15px 15px 0;
+    border-radius: 30px;
+    border: 3px solid black;
+  }
+  
+  /* button colors */
+  
+  #grayButton {
+    background-color:rgb(255, 255, 115);
+  }
+  
+  #whiteButton {
+    background: rgb(188, 255, 133);
+  }
+  
+  #blueButton {
+    background: rgb(124, 192, 255);
+  }
+  
+  #yellowButton {
+    background: rgb(255, 109, 197);
+  }
+  
+  /* background colors */
+  
+  .gray-theme {
+    background-color: rgb(255, 255, 115);
+  }
+  
+  .white-theme {
+    background-color:rgb(188, 255, 133);
+  }
+  
+  .yellow-theme {
+    background-color: rgb(124, 192, 255);
+  }
+  
+  .blue-theme {
+    background-color: rgb(255, 109, 197);
+    /*   change text to white */
+    color: white;
+  }
+  
+
+
+  nav {
+    height: 60px;
+}
