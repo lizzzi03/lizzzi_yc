@@ -1,44 +1,82 @@
-@charset "UTF-8";
-/* CSS Document */
-
-
-body{
-    font-family: arial, sans-serif;
-    font-size: 18px;
-    line-height: 21px;
-    font-weight: normal;
-    color: #000;
-    
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+*{
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
 }
 
-body.proj{
-    background-color: rgb(235,235,235);
+body, html{
+    font-family:'Roboto',sans-serif;
 }
 
-.red{
-    background-color: crimson;
+nav{
+    height:60px;
 }
 
-.yel{
-    background-color: yellow;
+ul.container{
+    display:flex;
+    flex-wrap:nowrap;
+    justify-content:space-around;
+    list-style: none;
+    background:#ffffff;
+    margin:0;
+    line-height:60px;
 }
 
-
-a, a:visited, a:active{
-    text-decoration: none;
-    color: inherit;
+.container a{
+    text-decoration:none;
+    color:#f4f4f4
 }
 
-a:hover, .btn:hover, .img-home:hover h2, .close-news:hover, .btn-txt:hover, .mfp-close:hover, .open-menu:hover, .nav-prev:hover, .nav-next:hover{
-    opacity: 0.5;
+.flex-container{
+flex-direction:column;
+position: center;
+justify-content:space-around;
 }
 
-.img-home:hover a:hover img:hover, .img-home a:hover{
-    opacity: 1;
+.project1{
+    width:600px;
+    text-align: center;
+}
+
+.project2{
+    width:600px;
+    text-align: center;
+}
+
+.project3{
+    width:600px;
+    text-align: center;
+}
+
+.project4{
+    width:600px;
+    text-align: center;
+}
+
+.project5{
+    width:600px;
+    text-align: center;
+}
+
+.project6{
+    width:600px;
+    text-align: center;
 }
 
 img{
-    display: block;
+    position: center;
+    width:600px;
+}
+
+h1{
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: #000000;
+}
+
+p{
+    text-align:center;
+    font-size: 12px;
+    color: rgb(60, 60, 60);
 }
