@@ -1,0 +1,44 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+body{
+    font-family: arial, sans-serif;
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: normal;
+    color: #000;
+    
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body.proj{
+    background-color: rgb(235,235,235);
+}
+
+.red{
+    background-color: crimson;
+}
+
+.yel{
+    background-color: yellow;
+}
+
+
+a, a:visited, a:active{
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover, .btn:hover, .img-home:hover h2, .close-news:hover, .btn-txt:hover, .mfp-close:hover, .open-menu:hover, .nav-prev:hover, .nav-next:hover{
+    opacity: 0.5;
+}
+
+.img-home:hover a:hover img:hover, .img-home a:hover{
+    opacity: 1;
+}
+
+img{
+    display: block;
+}
