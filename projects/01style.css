@@ -31,7 +31,8 @@ ul.container{
 .flex-container{
 flex-direction:column;
 position: center;
-justify-content:space-around;
+align-items: center;
+justify-content:center;
 }
 
 .project1{
