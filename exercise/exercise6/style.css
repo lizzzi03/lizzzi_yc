@@ -65,7 +65,8 @@ justify-content:space-around;
 }
 
 img{
-    image-orientation: middle;
+    text-align: center;
+    image-orientation: center;
     width:600px;
 }
 
