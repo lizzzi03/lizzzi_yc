@@ -95,7 +95,7 @@
     align-content: center;
   }
 
-  img{
+  .imgtop{
     display:flex;
     flex-direction:column;
     align-items:center;
