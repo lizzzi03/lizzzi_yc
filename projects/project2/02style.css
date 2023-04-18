@@ -19,8 +19,7 @@
     top: 0;
   }
   
-  .filters,
-  .sort {
+  .filters, .sort {
     padding: 20px;
     width: 100%;
   }
