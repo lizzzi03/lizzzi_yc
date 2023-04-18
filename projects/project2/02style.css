@@ -94,3 +94,11 @@
     max-height: 200 px;
     align-content: center;
   }
+
+  img{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    width:100%;
+}
