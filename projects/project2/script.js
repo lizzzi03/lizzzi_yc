@@ -3,6 +3,7 @@ const chairs = [
         name: "Azure Cliff with Red Maples",
         author: "Gong Xian (Chinese, 1619-1689)",
         year: "1680s",
+        catalog:"fan",
         image:"https://www.project2.com/images/main-image1.jpg"
     }
 ]
@@ -12,15 +13,11 @@ function renderArtToPage(art) {
     for (let i = 0; i < art.length; i++) {
       let list_item = document.createElement("li");
 
-      list_item.classList.add(art[i].name, chairs[i].author, chairs[i].year, "card");
+      list_item.classList.add(art[i].catalog, chairs[i].year, "card");
 
       // add chair name
       let title = document.createElement("h3");
-      title.textContent = art[i].name;
-
-      //add chair year
-      let year = document.createElement("p");
-      year.textContent = art[i].author;
+      title.textContent = art[i].catalog;
 
       // add chair country
       let country = document.createElement("p");
