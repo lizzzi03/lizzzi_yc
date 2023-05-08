@@ -13,22 +13,35 @@ function renderArtToPage(art) {
     for (let i = 0; i < art.length; i++) {
       let list_item = document.createElement("li");
 
-      list_item.classList.add(art[i].catalog, art[i].year, "card");
+      list_item.classList.add(art[i].year, art[i].catalog, "card");
 
       // add art name
       let title = document.createElement("h3");
-      title.textContent = art[i].catalog;
+      title.textContent = art[i].name;
 
-      // add art country
-      let country = document.createElement("p");
-      country.textContent = art[i].year;
+      // add art author
+      let author = document.createElement("p");
+      year.textContent = art[i].author;
+
+      // add art year
+      let year = document.createElement("p");
+      year.textContent = art[i].year;
+
+      // add art catalog
+      let catalog = document.createElement("p");
+      catalog.textContent = art[i].catalog;
+
+      // add art image
+      let image = document.createElement("img");
+      image.setAttribute("src", art[i].image);
 
       // append created elements to page
       ul.appendChild(list_item);
-      list_item.appendChild(image)
       list_item.appendChild(title);
       list_item.appendChild(author);
       list_item.appendChild(year);
+      list_item.appendChild(catalog);
+      list_item.appendChild(image);
     }
   }
 
@@ -71,9 +84,9 @@ function renderArtToPage(art) {
                     }
                     return 0;
                 });
-                console.log('sorted', chairs)
+                console.log('sorted', art)
                 ul.innerHTML = "";
-                renderChairsToPage(chairs);
+                renderChairsToPage(art);
 
             } else if (sortValue === "descending") {
                 art.reverse();
