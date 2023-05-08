@@ -13,7 +13,7 @@ function renderArtToPage(art) {
     for (let i = 0; i < art.length; i++) {
       let list_item = document.createElement("li");
 
-      list_item.classList.add(art[i].name, art[i].author, art[i].year,"card");
+      list_item.classList.add(art[i].name, art[i].author, art[i].year,art[i].catalog, "card");
 
       // add art name
       let title = document.createElement("h3");
