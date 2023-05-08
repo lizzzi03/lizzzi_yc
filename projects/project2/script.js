@@ -3,7 +3,7 @@ const art = [
         name: "Azure Cliff with Red Maples",
         author: "Gong Xian (Chinese, 1619-1689)",
         year: "1680s",
-        catalog:"fan",
+        catalog:"Fan",
         image:"https://user-images.githubusercontent.com/124107292/236712187-e3e02fdf-f32a-4e93-9eb5-bf543f9c4203.jpg"
     }
 ]
@@ -13,7 +13,7 @@ function renderArtToPage(art) {
     for (let i = 0; i < art.length; i++) {
       let list_item = document.createElement("li");
 
-      list_item.classList.add(art[i].year, art[i].catalog, "card");
+      list_item.classList.add(art[i].name, art[i].author, art[i].year,"card");
 
       // add art name
       let title = document.createElement("h3");
