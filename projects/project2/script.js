@@ -13,8 +13,7 @@ function renderArtToPage(art) {
     for (let i = 0; i < art.length; i++) {
       let list_item = document.createElement("li");
 
-      list_item.classList.add(art[i].name, art[i].author, art[i].year,art[i].catalog, "card");
-
+      list_item.classList.add(art[i].year, art[i].catalog,  "card");
       // add art name
       let title = document.createElement("h3");
       title.textContent = art[i].name;
@@ -40,7 +39,6 @@ function renderArtToPage(art) {
       list_item.appendChild(title);
       list_item.appendChild(author);
       list_item.appendChild(year);
-      list_item.appendChild(catalog);
       list_item.appendChild(image);
     }
   }
