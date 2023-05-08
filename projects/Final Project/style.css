@@ -223,3 +223,15 @@ button:hover {
     font-size:12px;
     color:#a9a9a9;
 }
+
+img {
+    width: 200px;
+    max-height: 200 px;
+    align-content: center;
+  }
+
+img:hover {
+  transform: scale(2);
+  animation-play-state: paused;
+  z-index: 2;
+}
