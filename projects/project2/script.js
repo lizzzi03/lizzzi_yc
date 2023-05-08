@@ -4,7 +4,7 @@ const chairs = [
         author: "Gong Xian (Chinese, 1619-1689)",
         year: "1680s",
         catalog:"fan",
-        image:"https://collectionapi.metmuseum.org/api/collection/v1/iiif/35990/150528/main-image"
+        image:"https://collectiohttps://user-images.githubusercontent.com/124107292/236710422-45a70cdf-5bc3-4d1e-acbc-e5bc798320d8.jpgnapi.metmuseum.org/api/collection/v1/iiif/35990/150528/main-image"
     }
 ]
     const ul = document.querySelector("ul");
