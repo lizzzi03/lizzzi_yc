@@ -4,42 +4,42 @@ const art = [
   author: "Wu Bin (active ca. 1583-1626)",
   year: "1603",
   catalog:"Fan",
-  image:"https://user-images.githubusercontent.com/124107292/236712187-e3e02fdf-f32a-4e93-9eb5-bf543f9c4203.jpg"
+  image:"https://user-images.githubusercontent.com/124107292/236738958-60641b56-138a-4474-9ef8-908bae4fd108.jpg"
 },
 {
   name: "Censer with figures in landscape",
   author: "China",
   year: "1707",
   catalog:"Porcelain",
-  image:"https://user-images.githubusercontent.com/124107292/236729324-4d908fd5-51b3-41c3-b17b-269af0ff1e46.jpg"
+  image:"https://user-images.githubusercontent.com/124107292/236738961-bd8fce79-732c-4d80-8bfa-275d15ce7186.jpg"
 },
 {
   name: "Figure standing in a grove of trees",
   author: "Li Liufang (Chinese, 1575-1629)",
   year: "1613",
   catalog:"Fan",
-  image:"https://user-images.githubusercontent.com/124107292/236729327-ab6e60c3-a7ac-4a27-a8c7-83c68d01c9b7.jpg"
+  image:"https://user-images.githubusercontent.com/124107292/236738954-20e11e4e-5ba3-4898-a6cd-5e61eb3d0aa0.jpg"
 },
 {
   name: "Landscape with solitary figure",
   author: "Shitao (Zhu Ruoji) (Chinese, 1642-1707)",
-  year: "1660s",
+  year: "1660",
   catalog:"Wash Painting",
-  image:"https://user-images.githubusercontent.com/124107292/236729329-8ecd0df8-1a40-4c9f-867a-99c3bc2e76b2.jpg"
+  image:"https://user-images.githubusercontent.com/124107292/236738967-379b54e8-eff4-4a8a-9d7e-96bdbc2c2386.jpg"
 },
 {
   name: "Wine pot with figures in a landscape",
   author: "China",
   year: "1800",
   catalog:"Artware",
-  image:"https://user-images.githubusercontent.com/124107292/236729333-ebf778ed-a499-4221-8a9e-353936619402.jpg"
+  image:"https://user-images.githubusercontent.com/124107292/236738950-c8bb3a91-95a3-4966-8e3a-202ee458c00e.jpg"
 },
 {
   name: "Listening to the Waterfall from a Moored Boat, in the manner of Wen Zhengming",
   author: "Zhu Angzhi (Chinese, 1764-after 1841)",
   year: "1837",
   catalog:"Wash Painting",
-  image:"https://user-images.githubusercontent.com/124107292/236729336-af862561-da2e-4c79-90b7-ab55333e6f17.jpg"
+  image:"https://user-images.githubusercontent.com/124107292/236738940-a4dbee09-3290-49f5-856b-be25f1a1dd32.jpg"
 },
 {
   name: "Dish with poem “The Pavilion of the Prince of Teng” by Du Fu (712-770)",
@@ -190,7 +190,7 @@ const art = [
 },
 {
   name: "Fisherman viewing the moon",
-  author: "Ye Guang (Chinese, active late 16th–early 17th century)",
+  author: "Ye Guang (Chinese, active late 16th-early 17th century)",
   year: "1460",
   catalog:"Wash Painting",
   image:"https://user-images.githubusercontent.com/124107292/236729320-12f0c4c8-b380-4aa8-b791-22e47d044e8d.jpg"
