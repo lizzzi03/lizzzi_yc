@@ -235,10 +235,10 @@ function renderArtToPage(art) {
 
       // append created elements to page
       ul.appendChild(list_item);
-      list_item.appendChild(image);
       list_item.appendChild(title);
       list_item.appendChild(author);
       list_item.appendChild(year);
+      list_item.appendChild(image);
     }
   }
 
