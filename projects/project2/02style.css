@@ -89,7 +89,8 @@
   }
   
   img {
-    height: 200 px;
+    width: 75%;
+    max-height: 200 px;
     align-content: center;
   }
 
