@@ -19,7 +19,8 @@
     top: 0;
   }
   
-  .filters, .sort {
+  .filters, 
+  .sort {
     padding: 20px;
     width: 100%;
   }
@@ -89,7 +90,7 @@
   }
   
   img {
-    width: 1000px;
+    width: 200px;
     max-height: 200 px;
     align-content: center;
   }

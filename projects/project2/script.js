@@ -4,42 +4,42 @@ const art = [
   author: "Wu Bin (active ca. 1583-1626)",
   year: "1603",
   catalog:"Fan",
-  image:"https://user-images.githubusercontent.com/124107292/236738958-60641b56-138a-4474-9ef8-908bae4fd108.jpg"
+  image:"https://user-images.githubusercontent.com/124107292/236741049-a63d71fd-bdff-4e84-8263-94d64bbe13bd.jpg"
 },
 {
   name: "Censer with figures in landscape",
   author: "China",
   year: "1707",
   catalog:"Porcelain",
-  image:"https://user-images.githubusercontent.com/124107292/236738961-bd8fce79-732c-4d80-8bfa-275d15ce7186.jpg"
+  image:"https://user-images.githubusercontent.com/124107292/236741053-6f558074-2d06-453f-9167-07d4da61ddb0.jpg"
 },
 {
   name: "Figure standing in a grove of trees",
   author: "Li Liufang (Chinese, 1575-1629)",
   year: "1613",
   catalog:"Fan",
-  image:"https://user-images.githubusercontent.com/124107292/236738954-20e11e4e-5ba3-4898-a6cd-5e61eb3d0aa0.jpg"
+  image:"https://user-images.githubusercontent.com/124107292/236741057-4c5af196-762c-4ca7-b3a4-f9affe597185.jpg"
 },
 {
   name: "Landscape with solitary figure",
   author: "Shitao (Zhu Ruoji) (Chinese, 1642-1707)",
   year: "1660",
   catalog:"Wash Painting",
-  image:"https://user-images.githubusercontent.com/124107292/236738967-379b54e8-eff4-4a8a-9d7e-96bdbc2c2386.jpg"
+  image:"https://user-images.githubusercontent.com/124107292/236741061-23da0960-0f75-4b81-9ce2-a746b88ad0e3.jpg"
 },
 {
   name: "Wine pot with figures in a landscape",
   author: "China",
   year: "1800",
   catalog:"Artware",
-  image:"https://user-images.githubusercontent.com/124107292/236738950-c8bb3a91-95a3-4966-8e3a-202ee458c00e.jpg"
+  image:"https://user-images.githubusercontent.com/124107292/236741065-34ed4093-81cd-4905-a943-e614b1123f3f.jpg"
 },
 {
   name: "Listening to the Waterfall from a Moored Boat, in the manner of Wen Zhengming",
   author: "Zhu Angzhi (Chinese, 1764-after 1841)",
   year: "1837",
   catalog:"Wash Painting",
-  image:"https://user-images.githubusercontent.com/124107292/236738940-a4dbee09-3290-49f5-856b-be25f1a1dd32.jpg"
+  image:"https://user-images.githubusercontent.com/124107292/236741043-0e440165-26f1-4736-8f77-a038b76b57e0.jpg"
 },
 {
   name: "Dish with poem “The Pavilion of the Prince of Teng” by Du Fu (712-770)",
