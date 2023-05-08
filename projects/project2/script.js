@@ -1,10 +1,10 @@
-const chairs = [
+const art = [
     {
         name: "Azure Cliff with Red Maples",
         author: "Gong Xian (Chinese, 1619-1689)",
         year: "1680s",
         catalog:"fan",
-        image:"https://inhabitat.com/wp-content/blogs.dir/1/files/2016/04/herringbone5-600x480.jpg"
+        image:"https://user-images.githubusercontent.com/124107292/236712187-e3e02fdf-f32a-4e93-9eb5-bf543f9c4203.jpg"
     }
 ]
     const ul = document.querySelector("ul");
@@ -13,13 +13,13 @@ function renderArtToPage(art) {
     for (let i = 0; i < art.length; i++) {
       let list_item = document.createElement("li");
 
-      list_item.classList.add(art[i].catalog, chairs[i].year, "card");
+      list_item.classList.add(art[i].catalog, art[i].year, "card");
 
-      // add chair name
+      // add art name
       let title = document.createElement("h3");
       title.textContent = art[i].catalog;
 
-      // add chair country
+      // add art country
       let country = document.createElement("p");
       country.textContent = art[i].year;
 
@@ -32,7 +32,7 @@ function renderArtToPage(art) {
     }
   }
 
-  renderArtToPage(arts);
+  renderArtToPage(art);
 
   let filterBtns = document.querySelector(".filters");
   let cards = document.querySelectorAll(".card"); 
@@ -62,7 +62,7 @@ function renderArtToPage(art) {
         if (event.target.classList.contains("sort-btn")){
             const sortValue = event.target.getAttribute("data-filter");
             if (sortValue === "ascending"){
-                chairs.sort(function(a, b){
+                art.sort(function(a, b){
                     if (a.year < b.year){
                         return -1
                     }
@@ -76,10 +76,10 @@ function renderArtToPage(art) {
                 renderChairsToPage(chairs);
 
             } else if (sortValue === "descending") {
-                chairs.reverse();
+                art.reverse();
                 //clear page
                 ul.innerHTML = "";
-                renderChairsToPage(chairs);
+                renderArtToPage(art);
             }
 
         }
