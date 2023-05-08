@@ -21,7 +21,7 @@ function renderArtToPage(art) {
 
       // add art author
       let author = document.createElement("p");
-      year.textContent = art[i].author;
+      auhtor.textContent = art[i].author;
 
       // add art year
       let year = document.createElement("p");
